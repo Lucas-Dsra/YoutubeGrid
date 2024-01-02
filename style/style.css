@@ -35,5 +35,14 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 14rem);
+    align-items: center;
+    justify-items: center;
+    
+}
+.item_grid{
+    overflow: hidden;
+    display: flex;
+    height: 200px;
+    width: 300px;
     
 }
