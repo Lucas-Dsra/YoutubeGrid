@@ -26,7 +26,8 @@ main{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(8, 3rem);
-    grid-auto-rows: 1rem;
+    grid-auto-rows: 3rem;
+
 }
 #grid_videos{
     background-color: brown;
@@ -34,4 +35,5 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 14rem);
+    
 }
